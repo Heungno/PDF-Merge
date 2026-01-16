@@ -16,6 +16,6 @@ files/*.xls
 files/*.xlsx
 files/*.hwp
 files/*.hwpx
-temp/**.pdf
+temp/**/*.pdf
 
 
