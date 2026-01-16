@@ -1,0 +1,11 @@
+# Node.js 기본 제외
+node_modules/
+npm-debug.log
+.env
+.DS_Store
+
+# LibreOffice 캐시
+.config/libreoffice/
+
+# 테스트 문서
+files/

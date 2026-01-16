@@ -1,0 +1,21 @@
+{
+  "name": "pdf-merge",
+  "version": "1.0.0",
+  "description": "문서를 하나의 PDF로 병합하기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heungno/PDF-Merge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Heungno/PDF-Merge/issues"
+  },
+  "homepage": "https://github.com/Heungno/PDF-Merge#readme"
+}
