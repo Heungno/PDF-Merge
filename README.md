@@ -20,5 +20,5 @@ sudo apt install -y poppler-utils
 
 ### 실행 테스
 ```bash
-node src/worker.js src/result.pdf sample.docx sample.xlsx sample.hwp sample.pdf
+node src/worker.js files/result.pdf files/sample.docx files/sample.xlsx files/sample.hwp files/sample.pdf
 ```

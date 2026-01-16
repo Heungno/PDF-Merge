@@ -8,7 +8,7 @@ async function main() {
   const args = process.argv.slice(2);
 
   if (args.length < 2) {
-    console.log("사용법: node src/worker.js output.pdf file1 file2 ...");
+    console.log("사용법: node files/worker.js files/output.pdf file1 file2 ...");
     process.exit(1);
   }
 
