@@ -15,7 +15,7 @@ async function main() {
   const output = args[0];
   const inputs = args.slice(1);
 
-  const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "merge-"));
+  const tempDir = fs.mkdtempSync(path.join("temp", "merge-"));
   const converted = [];
 
   console.log("임시 디렉토리:", tempDir);
@@ -37,7 +37,7 @@ async function main() {
     console.error("오류 발생:", err);
   } finally {
     // 디버깅 위해 당장은 tempDir 삭제 안 함
-    fs.rmSync(tempDir, { recursive: true, force: true });
+    //fs.rmSync(tempDir, { recursive: true, force: true });
   }
 }
 
